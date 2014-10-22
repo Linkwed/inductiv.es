@@ -1,0 +1,18 @@
+/* gabarit with grunt - master.css */
+
+/* -- reset & normalize --*/
+@import url("reset.css");
+@import url('normalize.css');
+
+/* -- fonts -- */
+@import url('fonts.css');
+
+/* -- style -- */
+@import url('style.css');
+
+/* -- tabeltte -- */
+@import url('tablette.css');
+
+/* -- smartphone -- */
+@import url('smartphone.css');
+

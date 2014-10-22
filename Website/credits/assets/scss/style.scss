@@ -1,0 +1,53 @@
+*{
+
+        box-sizing: border-box;
+}
+
+html{
+
+	height: 100%;
+}
+
+body{
+
+	font: 1rem/1.5 helvetica, arial, sans-serif;
+	overflow-y: scroll;
+	text-rendering: optimizeLegibility;
+      height: 100%;
+}
+
+// -- HEADER ---------------------------
+
+// -- MAIN ---------------------------
+
+main{
+
+      position: relative;
+      height: 500%;
+      z-index: 10;
+}
+
+#video-home{
+
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 0;
+}
+
+main section{
+
+      width: 100%;
+      height: 20%;
+      border-top: 1px solid #000;
+      background: #fff;
+}
+
+main section:first-child{
+
+      background: none;
+}
+
+// -- FOOTER ---------------------------

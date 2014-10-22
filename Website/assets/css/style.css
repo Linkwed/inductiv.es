@@ -1,0 +1,227 @@
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font: 1rem/1.5 helvetica, arial, sans-serif;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+  color: #4d4d4d;
+}
+
+main {
+  position: relative;
+  height: 350%;
+  z-index: 10;
+  font-family: 'roboto_slablight', helvetica, arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: 'roboto_slabthin', helvetica, arial, sans-serif;
+}
+
+header h2 {
+  font-family:  'roboto_slabthin', helvetica, arial, sans-serif;
+}
+
+h2 {
+  font-family: 'robotoregular', helvetica, arial, sans-serif;
+}
+
+#imgheader {
+  height: 97%;
+  position: relative;
+  background: url(../img/incru.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 11;
+}
+
+#main-intro{
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  bottom: 0px;
+  display: inline-block;
+  margin-left: -185px;
+  padding-top: 50px;
+  z-index: 100;
+  color: black;
+}
+
+#imgheader:after {
+    content: " ";
+    position: absolute;
+    left: -14px;
+    margin-left: 50%;
+    bottom: -14px;
+    width: 28px;
+    background: #fff;
+    height: 28px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    z-index: 1; 
+}
+
+.titleName {
+  width: 424px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -190px;
+  margin-top: -50px;
+}
+
+.titleName svg {
+  width: 424px;
+  height: 90px;
+  fill: #fff;
+}
+
+    header h1 {
+        
+        font-size: 38px;
+        color: #FFF;
+        text-align: center;
+        font-weight: 100;
+        letter-spacing: 15px;
+    }
+    
+    header h2 {
+        font-size: 20px;
+        color: #e3e2e2;
+        text-align: center;
+        font-weight: 100;
+        letter-spacing: 5px;
+    }
+
+main h3 {
+    text-align: center;
+}
+
+main section {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  overflow: hidden;
+}
+
+main section p {
+  width: 100%;
+  padding: 0;
+  clear: both;
+}
+
+main section video#inductive-product {
+  width: 60%;
+  margin-top: 6%;
+  position: absolute;
+  z-index: 1;
+}
+
+.video-scale{
+
+    transform: scale(1.8);
+    transition: all 2s ease-in-out;
+    left: 300px!important;
+    top: 200px!important;
+}
+
+.video-droite{
+
+    transform: scale(1);
+    right: 0;
+    top: 0;
+}
+
+#zoom{
+
+  position: absolute;
+  background: url(../img/rendu_taque.png) no-repeat center center;
+  background-size: 80% auto ;
+  background-color: #323232;
+  z-index: 1000;
+}
+
+main section:first-child {
+  background: none;
+}
+
+main .container-txt {
+  position: relative;
+  width: 40%;
+  margin: 10% 5% 5% 8%;
+  z-index: 1000;
+}
+
+main .container-txt h2{
+  text-transform: uppercase;
+  font-size: 1.8em;
+  margin: 0px 18% 20px 18%;
+}
+
+main .container-txt p {
+  margin-bottom: 2%;
+  margin: 0 18%;
+  width: 70%;
+}
+
+
+
+#partie5 .container-txt {
+  margin: auto;
+  width: 60%;
+  margin-top: 18%;
+}
+
+footer {
+  height: 80px;
+  width: 100%;
+  background: #f3f3f3;
+  padding: 35px 0 10px 0;
+  color: black;
+  z-index: 1000;
+  position: relative;
+}
+
+footer small {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 4px;
+}
+
+.change{
+  margin-left: 39%;
+}
+
+.change2{
+  margin-left: 22%!important;
+  -webkit-transition: 1s ease-in-out;
+}
+
+#moveyou{
+  margin-top: 10px;
+}
+
+/* ------------------------------ CLASSES GENERALES ------------------------------ */
+
+
+
+.left{float: left;}
+.right{float: right;}
