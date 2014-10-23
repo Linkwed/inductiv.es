@@ -25,9 +25,6 @@ $(document).ready(function(){
 			sectionOne();
 
 		}
-
-
-
 	});
 
 	$('#screen-large-point').waypoint(function(direction) {
